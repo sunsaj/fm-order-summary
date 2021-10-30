@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <meta charset='UTF-8'>
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>My Music</title>
-        <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-    </head>
-    <body>
-        <div class="card-container">
-            <div class="card-image">
-                <img src="assets/images/illustration-hero.svg" alt="">
+
+<head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>My Music</title>
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card-image">
+            <img src="./assets/images/illustration-hero.svg" alt="">
+        </div>
+        <div class="card-info">
+            <div class="card-header">
+                <h3>Order Summary</h3>
+                <p>You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!</p>
             </div>
-            <div class="card-info">
-                <div class="card-header">
-                    <h3>Order Summary</h3>
-                    <p>You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!</p>
-                </div>
-                <div class="card-body">
-                    <div class="plan-detail">
-                        <img src="assets/images/icon-music.svg" alt="">
-                        <div class="plan-price">
-                            <span>Annual Plan</span>
-                            <span>$59.99/year</span>
-                        </div>
-                        <a href="#">Change</a>
+            <div class="card-body">
+                <div class="plan-detail">
+                    <div class="plans">
+                        <img src="./assets/images/icon-music.svg" alt="">
+                    <div class="plan-price">
+                        <span class='plan-title'><strong>Annual Plan</strong></span>
+                        <span class="plan-body">$59.99/year</span>
                     </div>
-                    <button>Proceed to Payment</button>
-                    <button>Cancel Order</button>
+                    </div>
+                    
+                    <a href="#">Change</a>
                 </div>
+                <button class='payment-button'>Proceed to Payment</button>
+                <button class='cancel-button'>Cancel Order</button>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
